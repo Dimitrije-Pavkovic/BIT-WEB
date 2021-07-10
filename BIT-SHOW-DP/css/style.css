@@ -1,12 +1,14 @@
 
 body {
     background-image: url('../background-template.jpg');
-    background-repeat:repeat ;
-    
+      
 }
+
 
 h1{
     color: white;
+        
+      
 }
 
 .text-center{
@@ -51,10 +53,10 @@ header {
     cursor:pointer;
   }
 .card{
-    margin: 10px;
+    margin: 5px;
 }
-.car img{
-    padding-top: 2px;
+.card img{
+    padding: 10px;
     width: 100%;
 }
 .cardHolder{
