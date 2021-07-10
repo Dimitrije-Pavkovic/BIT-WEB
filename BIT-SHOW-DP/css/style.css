@@ -1,0 +1,65 @@
+
+body {
+    background-image: url('../background-template.jpg');
+    background-repeat:repeat ;
+    
+}
+
+h1{
+    color: white;
+}
+
+.text-center{
+    color: rgb(245, 244, 244);
+}
+h2 {
+    padding-top: 10px;
+    font-family: fantasy;
+    color: black;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+.noResults{
+    text-align: center;
+}
+#searchList {
+    border-color: lightcoral;
+    position: absolute;
+    top: 50px;
+    background-color:#51eee1;
+    list-style:none;
+    padding-left: 0;
+    z-index: 5;
+    
+}
+#searchList li {
+    border-bottom: 1px dotted white;
+    text-indent: 15px;
+    text-align: left;
+    text-overflow:clip;
+    text-transform: uppercase;
+    
+    
+}
+
+#searchList li:hover {
+    background-color: rgb(143, 143, 137);
+    color: white;
+    cursor:pointer;
+  }
+.card{
+    margin: 10px;
+}
+.car img{
+    padding-top: 2px;
+    width: 100%;
+}
+.cardHolder{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
